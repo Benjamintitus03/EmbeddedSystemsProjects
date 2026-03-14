@@ -1,0 +1,33 @@
+Arduino Nano Wiring
+
+Ultrasonic Sensor HC-SR04
+
+VCC  -> 5V
+GND  -> GND
+TRIG -> Pin 7
+ECHO -> Pin 6
+
+ESC Connections
+
+ESC1 Signal -> Pin 3
+ESC2 Signal -> Pin 5
+ESC3 Signal -> Pin 9
+ESC4 Signal -> Pin 10
+
+ESC Power
+ESCs connect directly to LiPo battery via power distribution board
+
+Battery
+3S LiPo -> Power Distribution Board
+
+Frame Layout
+
+         Motor
+           |
+           |
+Motor ---- Center ---- Motor
+           |
+           |
+         Motor
+
+Arms are fabricated using recycled plastic and reinforced with internal rods.
